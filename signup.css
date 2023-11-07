@@ -1,0 +1,325 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 0px;
+}
+.mcontainer{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+
+}
+.mmcontainer{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    height: 97vh;
+
+}
+/* Design for heading */
+h1{
+    padding-top: 50px;
+}
+p.good{
+    font-family: fantasy;
+    font-style: italic;
+    font-size: ;
+    color: gray;
+}
+ /* Herer is the code design for the username */
+input[type=text]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    text-indent: 17px;
+}
+input[type=text]:focus{
+border-radius: 15px;
+border: 1px solid lightblue;
+outline: none;
+
+
+}
+::placeholder{
+  font-size: 18px;
+  color: lightgray; 
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+
+}
+.user{
+    position: absolute;
+    top: 18.5%;
+    left: 23.5%;
+    font-size: 25px;
+
+    
+    
+}
+.formel{
+    position: relative;
+}
+   
+    /* Here is the style for email*/
+
+    input[type=email]{
+        width: 50%;
+        padding: 15px;
+        border-radius: 20px;
+        border: 1px solid gray;
+        text-indent: 18px;
+    }
+    input[type=email]:focus{
+        border-radius: 15px;
+        border: 1px solid lightblue;
+        outline: none;
+        
+    }
+        
+
+.email{
+    position: absolute;
+    top: 20%;
+    left: 23.5%;
+    font-size: 22px;
+    font-size: 22px;
+    
+}
+.formell{
+    position: relative;
+    margin-top: 30px;
+}
+/* Here is the design for phone number */
+
+input[type=number]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+input[type=number]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+
+}
+.forme{
+    margin-top: 30px;
+}
+
+/* Here is the code for password */
+
+input[type=password]{
+    width: 50%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+input[type=number]:focus{
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+
+}
+.formelll{
+    margin-top: 30px;
+     margin-bottom: 30px
+}
+
+/* Here is the code for register */
+.formee{
+    padding-bottom: 50px;
+    
+}
+.btn-btn{
+    background-color: #349827;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 23px;
+    font-size: 20px;
+    width: 45%;
+}
+/* Here is the design for Or divider */
+.divider{
+  display: flex; 
+  align-items: center; 
+  margin: 15px;
+}
+.divider::before, .divider::after{
+    content: '';
+    padding: 1px;
+    background-color: lightgrey;
+    flex: 1;
+    margin: 10px 3px;
+
+}
+.divider-bg{
+    background-color: #349827;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.divider-bgg{
+    background-color: lightgray;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.divider-bg.or{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.foot{
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    border: 3px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+.hed{
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+    border: 3px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Here is the design for social media buttons */
+
+.btn-social{
+    background-color: #3b5998;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;
+}
+.btn-social:nth-child(2){
+background-color: #00acee;
+}
+
+.btn-social:nth-child(3){
+    background-color: #DB4437;
+    }
+    .fa-brands{
+        padding: 3px;
+    }
+    .media{
+        padding: 20px;
+    }
+
+    /* Here are the codes for responsiveness */
+    @media(max-width:916px){
+       .mcontainer{
+        width: 90%;
+       } 
+       .mmcontainer{
+        width: 90%;
+       } 
+
+       .btn-social{
+    
+    
+        padding: 7px 20px;
+    
+        margin: 5px;
+    
+    }
+   .mcontainer p{
+    padding: 10px;
+   } 
+   
+   input[type=text]{
+    width: 80%;
+   
+   }
+   input[type=email]{
+    width: 80%;
+   }
+   input[type=number]{
+    width: 80%;
+   }
+   input[type=password]{
+    width: 80%;
+   }
+
+   .user{
+    position: absolute;
+    top: 18.5%;
+    left: 7%;
+    font-size: 22px;
+
+    
+    
+}
+.formel{
+    position: relative;
+}
+.email{
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    font-size: 22px;
+    font-size: 22px;
+    
+}
+.formell{
+    position: relative;
+    margin-top: 30px;
+}
+body{
+    overflow-x: hidden;
+}
+}
+@media(max-width:433px){ 
+    .mcontainer{
+      width: 100%;  
+    }
+    .btn-social{
+    
+    
+        padding: 3px 10px;
+    
+        margin: 5px;
+    
+    }
+    p.good{
+        font-family: fantasy;
+        font-style: italic;
+        font-size: small;
+        color: gray;
+    }
+}
+@media(max-width:342px){
+    .media a{
+        display: block;
+    
+    }
+    input[type=submit]{
+        width: 80%;
+        padding: 5px 7px;
+    }
+        
+
+    }
+}
+@media(max-width:321px){
+    .btn-social{
+    
+    
+        padding: 1px 6px;
+    
+        margin: 2px;
+    
+    }
+
+}
